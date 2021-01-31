@@ -89,7 +89,7 @@
  }
 
  function filtrerImageUrl(data) {
-     const imagesArray = data.flatMap((img) => (img.url.includes('ad-large') || img.url.includes('ad-image') ? img : [] ));
+     const imagesArray = data.flatMap((img) => (img.url.includes('ad-large') ? img : [] ));
      return imagesArray;
  }
 
