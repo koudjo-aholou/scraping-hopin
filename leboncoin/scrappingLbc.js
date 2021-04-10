@@ -200,11 +200,11 @@ function createPayloadEntr(args){
 
 
  function saveData(data){
-  fetch("https://api.airtable.com/v0/app6EThUKez5PsR8U/biens_immo_toulouse", {
+  fetch("https://api.airtable.com/v0/YourURL", {
   method: 'POST', // or 'PUT'
   headers: {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer key7QN2byGjIgVNR5'
+    'Authorization': 'Bearer YOURKEY'
   },
   body: JSON.stringify(data),
   })
